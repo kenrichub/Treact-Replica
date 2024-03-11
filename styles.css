@@ -6,3 +6,76 @@
   margin: 0;
   font-family: "Inter", sans-serif;
 }
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style-type: none;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding: 24px 24px 0 24px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo:hover .logo__name {
+  color: rgb(100 21 255);
+  transition: all 300ms ease;
+}
+
+.logo__img {
+  width: 40px;
+  margin-right: 12px;
+}
+
+.logo__name {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.nav__links {
+  display: flex;
+}
+
+.nav__link {
+  margin: 0 24px;
+  font-size: 14px;
+  font-weight: 600;
+  color: black;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+  color: rgb(100 21 255);
+  transition: all 300ms ease;
+}
+
+.nav__link--primary {
+  padding: 12px 32px;
+  border-radius: 2000px;
+  background-color: rgb(100 21 255);
+  color: white;
+  margin: 0px;
+}
+
+.nav__link--primary:hover {
+  background-color: rgb(84, 19, 215);
+  transition: all 300ms ease;
+  text-decoration: none;
+  color: white;
+}
