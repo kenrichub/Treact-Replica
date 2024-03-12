@@ -134,7 +134,7 @@ li {
 }
 
 .header__form--input:hover {
-  border:solid 2px rgb(174, 175, 177);
+  border: solid 2px rgb(174, 175, 177);
 }
 
 .header__form--button {
@@ -194,5 +194,22 @@ li {
   text-align: center;
   margin-top: 16px;
   max-width: 556px;
-  color:rgb(124 139 161);
+  color: rgb(124 139 161);
+}
+
+.features__wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 32px;
+  max-width: 800px;
+}
+
+.features {
+  width: calc(100% / 3);
+  padding: 32px 8px;
+}
+
+.features__heading {
+  font-size: 24px;
 }
