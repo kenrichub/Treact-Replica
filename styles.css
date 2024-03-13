@@ -210,11 +210,13 @@ p {
 .features__h2 {
   font-size: 16px;
   margin-bottom: 16px;
+  letter-spacing: 0.5px;
 }
 
 .features__title {
   font-size: 48px;
   font-weight: 800;
+  letter-spacing: 0.5px;
 }
 
 .features__wrapper {
@@ -271,12 +273,14 @@ p {
 
 .quality__h2 {
   font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 .quality__heading {
   font-size: 40px;
   font-weight: 900;
   margin-top: 16px;
+  letter-spacing: 0.5px;
 }
 
 .quality__para {
@@ -297,7 +301,8 @@ p {
   font-size: 14px;
 }
 
-.quality__button:hover, .values__button:hover {
+.quality__button:hover,
+.values__button:hover {
   background-color: rgb(84, 19, 215);
   cursor: not-allowed;
 }
@@ -326,12 +331,14 @@ p {
 
 .steps__subheading {
   font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 .steps__heading {
   font-size: 40px;
   margin-top: 16px;
   font-weight: 900;
+  letter-spacing: 0.5px;
 }
 
 .steps__wrapper {
@@ -378,12 +385,14 @@ p {
 
 .values__subheading {
   font-size: 14px;
+  letter-spacing: 0.5px;
 }
 
 .values__heading {
   font-size: 40px;
   margin-top: 16px;
   font-weight: 900;
+  letter-spacing: 0.5px;
 }
 
 .values__text {
@@ -415,7 +424,7 @@ p {
   background-color: rgba(84, 236, 142, 0.608);
   padding: 10px 12px;
   border-radius: 2000px;
-  color:rgb(46, 134, 80);
+  color: rgb(46, 134, 80);
 }
 
 .values__h2 {
@@ -426,13 +435,162 @@ p {
 .values__para {
   margin-top: 14px;
   font-size: 14px;
-  color: rgb(119, 120, 122)
+  color: rgb(119, 120, 122);
 }
 
 .suitcase {
-  background-color: rgb(252, 167, 167); 
+  background-color: rgb(252, 167, 167);
   padding: 10px;
   border-radius: 2000px;
-  color:rgb(244, 88, 88);
+  color: rgb(244, 88, 88);
 }
 
+/* PRICING PLANS */
+
+.pricing__container {
+  padding: 80px 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.pricing__subheader {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.pricing__header {
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.pricing__para {
+  max-width: 526px;
+  margin-top: 20px;
+  color: rgb(119, 120, 122);
+  font-weight: 500;
+  text-align: center;
+}
+
+.plans__wrapper {
+  display: flex;
+  margin-top: 40px;
+  width: 100%;
+}
+
+.plans {
+  margin-right: 32px;
+  border: solid 1px rgb(208, 213, 221);
+  border-radius: 8px;
+  width: calc(100% / 3);
+}
+
+.plan__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: solid 1px rgb(208, 213, 221);
+  padding: 32px 0;
+}
+
+.plan__name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.plan__price {
+  font-size: 44px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.plan__duration {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(174, 175, 177);
+}
+
+.plan__features {
+  border-bottom: solid 1px rgb(208, 213, 221);
+  padding: 32px;
+}
+
+.plan__feature {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 18px;
+  font-size: 14px;
+  color: rgb(136, 139, 144)
+}
+
+.plan__target {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: black;
+}
+
+
+.plan__button {
+  padding: 32px 64px;
+}
+
+.plans__button--personal,
+.plans__button--business,
+.plans__button--enterprise {
+  padding: 16px 32px;
+  border-radius: 2000px;
+  width: 100%;
+  border: none;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.plans__business {
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 127, 234) 100%
+  );
+  color: white;
+}
+
+.plan__duration--business {
+  margin-top: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+}
+
+.plan__feature--business {
+  color: white;
+}
+
+.plan__target--business {
+  color: white;
+}
+
+.plans__button--personal {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  color: white;
+}
+
+.plans__button--business {
+  background-color: white;
+  color:rgb(100 21 255)
+}
+
+.plans__button--enterprise {
+  color: white;
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
+
+.plans__button--personal:hover,
+.plans__button--business:hover,
+.plans__button--enterprise:hover {
+  cursor: not-allowed;
+}
