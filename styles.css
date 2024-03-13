@@ -233,7 +233,7 @@ i {
   padding: 20px;
   border: solid 1px rgb(224, 224, 224);
   border-radius: 2000px;
-  color:rgb(100 21 255)
+  color:rgb(100 21 255);
 }
 
 .features__text {
@@ -305,4 +305,60 @@ i {
 .quality__img {
   width:100%;
   max-width: 640px;
+}
+
+/* STEPS */
+
+.steps__container {
+  display: flex;
+  padding: 80px 48px;
+  align-items: center;
+}
+
+.steps__img {
+  width: 100%;
+}
+
+.steps__description {
+  width: 60%;
+  padding-left: 44px;
+}
+
+.steps__subheading {
+  font-size: 14px;
+}
+
+.steps__heading {
+  font-size: 40px;
+  margin-top: 16px;
+  font-weight: 900;
+}
+
+.steps__wrapper {
+  margin-top: 24px;
+}
+
+.steps {
+  display: flex;
+  margin-top: 24px;
+}
+
+.steps__number {
+  font-size: 28px;
+  color: rgb(208, 213, 221);
+  margin-right: 16px;
+}
+
+.steps__text {
+  max-width: 280px;;
+}
+
+.steps__h6 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.steps__para {
+  font-size: 12px;
+  color: rgb(133, 135, 138);
 }
