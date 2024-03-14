@@ -524,7 +524,7 @@ p {
   align-items: center;
   margin-top: 18px;
   font-size: 14px;
-  color: rgb(136, 139, 144)
+  color: rgb(136, 139, 144);
 }
 
 .plan__target {
@@ -533,7 +533,6 @@ p {
   letter-spacing: 0.5px;
   color: black;
 }
-
 
 .plan__button {
   padding: 32px 64px;
@@ -575,18 +574,26 @@ p {
 }
 
 .plans__button--personal {
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
   color: white;
 }
 
 .plans__button--business {
   background-color: white;
-  color:rgb(100 21 255)
+  color: rgb(100 21 255);
 }
 
 .plans__button--enterprise {
   color: white;
-  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
 }
 
 .plans__button--personal:hover,
@@ -608,5 +615,82 @@ p {
 }
 
 .testimonials__description {
-  width:70%;
+  max-width: 60%;
+  padding-left: 60px;
+}
+
+.testimonials__subheading {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+
+.testimonials__heading {
+  font-size: 40px;
+  margin-top: 20px;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+}
+
+.testimonials__text {
+  font-size: 16px;
+  margin-top: 28px;
+  color: rgb(119, 120, 122);
+}
+
+.testimonials__wrapper {
+  padding-top: 40px;
+}
+
+.stars {
+  color: gold;
+}
+
+.testimonial__heading {
+  margin-top: 14px;
+  font-size: 18px;
+}
+
+.testimonial__para {
+  font-size: 14px;
+  color: rgb(78, 78, 78);
+  font-weight: 500;
+  margin-top: 14px;
+}
+
+.testimonial__slider {
+  display: flex;
+  margin-top: 36px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.testimonial__person {
+  display: flex;
+  align-items: center;
+}
+
+.testimonial__person--img {
+  width: 60px;
+  border-radius: 200px;
+  margin-right: 16px;
+}
+
+.testimonial__person--name {
+  font-size: 18px;
+}
+
+.testimonial__person--title {
+  font-size: 14px;
+  color: rgb(119, 120, 122);
+}
+
+.button__left,
+.button__right {
+  font-size: 18px;
+  padding: 16px 18px;
+  margin: 0 12px;
+  color: rgb(100 21 255);
+  background-color: rgb(237 242 247);
+  border-radius: 2000px;
+  border: none; 
 }
