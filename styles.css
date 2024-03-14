@@ -594,3 +594,19 @@ p {
 .plans__button--enterprise:hover {
   cursor: not-allowed;
 }
+
+/* TESTIMONIALS */
+
+.testimonials__container {
+  padding: 80px 60px;
+  display: flex;
+  align-items: center;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__description {
+  width:70%;
+}
