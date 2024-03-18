@@ -958,4 +958,43 @@ p {
   .nav__links {
     display: none;
   }
+  .header__container{
+    display: flex;
+    justify-content: center;
+  }
+  .header__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__text {
+    max-width: 512px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header__text--heading{
+    font-size: 30px;
+  }
+  .header__form {
+    max-width: 448px;
+    width: 100%;
+  }
+  .header__text--text {
+    margin-top: 44px;
+  }
+  .header__text--companies {
+    margin: 0 auto;
+    padding:20px 0;
+  }
+  .header__img {
+    max-width: 512px;
+    padding-top: 10px;
+  }
+  .features {
+    width: calc(100% / 2);
+    padding: 32px 24px;
+  }
 }
